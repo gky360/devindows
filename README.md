@@ -1,4 +1,4 @@
-# devindow
+# devindows
 
 Windows VM for development
 

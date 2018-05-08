@@ -68,7 +68,7 @@ Vagrant.configure("2") do |config|
   # View the documentation for the provider you are using for more
   # information on available options.
   config.vm.provider "virtualbox" do |vb|
-    vb.name = "devindow"
+    vb.name = "devindows"
 
     # Display the VirtualBox GUI when booting the machine
     vb.gui = true
