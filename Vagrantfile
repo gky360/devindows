@@ -13,13 +13,12 @@ Vagrant.configure("2") do |config|
   # Settings specific to a windows box
   config.vm.guest = :windows
   config.vm.communicator = :winrm
-  config.winrm.username = "IEUser"
-  config.winrm.password = "Passw0rd!"
+  config.winrm.username = "vagrant"
+  config.winrm.password = "vagrant"
 
   # Every Vagrant development environment requires a box. You can search for
   # boxes at https://vagrantcloud.com/search.
-  config.vm.box = "Microsoft/EdgeOnWindows10"
-  config.vm.box_version = "1.0"
+  config.vm.box = "inclusivedesign/windows10-eval"
 
   # Disable automatic box update checking. If you disable this, then
   # boxes will only be checked for updates when the user runs
