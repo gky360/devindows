@@ -8,7 +8,6 @@ Make sure you have installed vagrant plugins listed below.
 
 ```
 vagrant plugin install vagrant-vbguest
-vagrant plugin install vagrant-winrm
 ```
 
 ## Usage
